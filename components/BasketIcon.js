@@ -1,8 +1,9 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 const BasketIcon = () => {
   return (
-    <div>BasketIcon</div>
+    <Text>BasketIcon</Text>
   )
 }
 
