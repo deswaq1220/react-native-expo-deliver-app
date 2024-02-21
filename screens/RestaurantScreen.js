@@ -106,12 +106,12 @@ const RestaurantScreen = () => {
 
           <View className="pb-36">
             <Text className="px-4 py-3 text-xl font-bold">Menu</Text>
-            {dishes.map((dish) =>(
+            {dishes?.map((dish) =>(
               <DishRow
                 key={dish._id}
                 id={dish._id}
                 name={dish.name}
-                description={dish.shortDescription}
+                description={dish.short_description}
                 price={dish.price}
                 image={dish.image}
               />

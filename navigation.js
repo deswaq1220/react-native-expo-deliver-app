@@ -29,7 +29,10 @@ const Navigation = () => {
             headerShown: false,
           }}
         />
-        <Stack.Screen name="Delivery" component={DeliveryScreen} />
+        <Stack.Screen name="Delivery" component={DeliveryScreen} options={{
+            presentation: "fullScreenModal",
+            headerShown: false,
+          }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
